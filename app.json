@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "TapLogic X",
+    "slug": "taplogic-x-v3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.vansh.taplogicv3",
+      "adaptiveIcon": {
+        "backgroundColor": "#0f172a"
+      }
+    }
+  }
+}

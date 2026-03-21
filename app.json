@@ -1,14 +1,16 @@
 {
   "expo": {
-    "name": "TapLogic X",
-    "slug": "taplogic-x-v3",
+    "name": "TapLogix-X",
+    "slug": "taplogic-x",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "android": {
-      "package": "com.vansh.taplogicv3",
-      "adaptiveIcon": {
-        "backgroundColor": "#0f172a"
+      "package": "com.vansh.taplogicx"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cb08b7d8-3252-4220-9d13-bb6fa3fba649"
       }
     }
   }

@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: 🚀 Build Android APK
-        # Maine yahan force flag add kar diya hai taaki keystore apne aap ban jaye
-        run: npx eas-cli build --platform android --profile preview --non-interactive
+        # 'yes |' command automatically "Yes" bol degi jab Expo Keystore ke liye poochega
+        run: yes | npx eas-cli build --platform android --profile preview --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
